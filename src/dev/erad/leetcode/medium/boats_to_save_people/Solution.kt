@@ -1,6 +1,7 @@
 package dev.erad.leetcode.medium.boats_to_save_people
 
 // https://leetcode.com/problems/boats-to-save-people/description/
+
 // Time complexity: O(nlogn)
 // Space complexity: O(1)
 // Why time complexity is O(nlogn)? Because we sort the array of people.
