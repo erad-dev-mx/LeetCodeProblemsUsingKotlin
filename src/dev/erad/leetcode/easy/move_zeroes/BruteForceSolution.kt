@@ -34,4 +34,5 @@ fun main() {
     val nums = intArrayOf(0, 1, 0, 3, 12)
     val solution = BruteForceSolution()
     solution.moveZeroes(nums)
+    println("RT")
 }
