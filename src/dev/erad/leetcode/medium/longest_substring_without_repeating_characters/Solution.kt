@@ -4,6 +4,9 @@ package dev.erad.leetcode.medium.longest_substring_without_repeating_characters
 
 // Time complexity: O(n)
 // Space complexity: O(n)
+// Why is time complexity O(n)? Because we are using a single loop that iterates over the input string.
+// Why is space complexity O(n)? Because we are using a hash map to store the characters and their indices, which can grow with the input size.
+// This is a sliding window approach.
 
 class Solution {
     fun lengthOfLongestSubstring(s: String): Int {
@@ -23,4 +26,11 @@ class Solution {
 
         return ans
     }
+}
+
+fun main() {
+    val solution = Solution()
+    val s = "abcabcbb"
+    val length = solution.lengthOfLongestSubstring(s)
+    println("The length of the longest substring without repeating characters is: $length")
 }
