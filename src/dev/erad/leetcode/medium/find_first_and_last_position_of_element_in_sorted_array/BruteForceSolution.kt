@@ -1,6 +1,5 @@
 package dev.erad.leetcode.medium.find_first_and_last_position_of_element_in_sorted_array
 
-
 // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 // Time complexity: O(n)
